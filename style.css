@@ -1,1 +1,277 @@
+.html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white; 
+    font-weight: 100;
+    
+    
+    
+}
+
+.body {
+    margin: 0 0;
+    background: #2b2c2c;
+    
+}
+header {
+    width: 100%;
+    height: 50px;
+    
+}
+.nav {
+    display: block;
+    margin: 0 auto ;
+    max-width: 1300px;
+    background-color: #2b2c2c;
+    text-align: center;
+    
+    
+}
+.nav_li {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin:  0 0;
+    
+    
+    
+}
+.nav_li li {
+    
+}
+
+.nav_li a {
+    display: block;
+    padding: 12px 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main_cont {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.main_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.main_le {
+    margin: 0;
+    width: 34%;
+    background-color: #2a2e1e;
+}
+.main_ri {
+    
+    width: 66%;
+    background-color: #2d2e2e;
+}
+.figure_le {
+    max-width: 100%;
+    margin: 0 ;
+    padding: 0;
+    
+}
+.img {
+    display: block;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+    padding: 20px 0 0 ;
+    
+}
+
+.footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 50px ;
+}
+.footer_cont {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: blue;
+}
+.main_le {
+    background-color: #2b2c2cce;
+}
+.main_le_ul {
+    padding-left: 20%;
+    padding-right: 20%;
+    list-style: none;
+
+}
+.main_le_h2 {
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(47, 47, 51);
+    color: #e0a80d;
+    
+}
+
+.main_le_ul a {
+    color: white;
+}
+
+.main_le_ul li {
+    padding: 10px 0;
+    
+}
+.main_ri_sec{
+ 
+}
+.main_ri_h1 {
+    margin: 0;
+    padding-top: 90px;
+    padding-left: 7%;
+    padding-right: 10%;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.main_ri_h2 {
+    padding-left: 7%;
+    padding-right: 10%;
+    background-color: rgb(47, 47, 51);
+    color: #e0a80d;
+}
+
+.main_ri_p {
+    padding-left: 7%;
+    padding-right: 10%;
+    padding: 20px 10% 20px 7%;
+}
+
+.main_ri_p_dev {
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    margin: 0 0;
+}
+.main_ri_ul {
+    padding: 20px 10% 20px 9%;
+}
+.project {
+    display: flex;
+    list-style: none;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:  0px 10% 0px 7%;
+}
+.project img {
+    object-fit: cover;
+    width: 300px;
+    box-shadow: 0 0 0 4px rgb(0 0 0 / 10%);
+}
+.main_ri_il2 {
+    
+}
+
+.project h3 {
+    font-weight: 200;
+    border-bottom: 2px solid #000;
+}
+
+.main_ri_code {
+    padding: 20px 7% 20px 7%;
+    
+}
+.footer {
+    height: 70px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #2e3030 ;
+
+}
+
+.footer_a {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white; 
+    font-weight: 600;
+    font-size: 300px;
+    display: block;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.footer_a_img {
+    float: left;
+    padding-left: 10px;
+    
+}
+
+.footer_a span {
+    display: inline-block;
+    text-align: center;
+    margin-top:  3px;
+    padding-left: 10px;
+    
+}
+
+.footer_p {
+    padding-top: 7px;
+}
+
+.footer_img {
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+.nav_li a:hover {
+    background-color: #333230;
+}
+
+@media screen and (max-width: 900px) {
+    .figure_le img {
+        width: 100px;
+        height: 100px;
+    }
+    .nav_li a {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+   
+
+    .main_flex {
+        display: block;
+    }
+    .main_le {
+        width: 100%;
+        
+        
+    }
+    .main_ri {
+        width: 100%;
+        
+        
+    }
+    .figure_le img {
+        width: 100px;
+        
+        
+    }
+    .nav_li {
+        display: block;
+        margin: 0 ;
+        padding: 0;
+    }
+    
+    header {
+        height: 350px;
+        
+    }
+}
 
