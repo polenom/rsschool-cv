@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body >
+    
+    <main>
+        <div class="back">
+            <div class="wrap">
+                <div class="video_fraim" id='id_div'>
+                    <video class="video_player"src="first.mp4"></video>
+                    <button class="button_play"></button>
+                    <div class="video_buttons">
+                        <button class="panel_button_play"></button>
+                        <div class="panel_cur_time "  >00:00</div>
+                        <input class="progress-video_range" type="range" name="progress-bar-video" id="progress-bar-video" value="0" min="0" max="100" step="0.1">
+                        <div class="panel_duration_time" >00:00</div>
+                        <button class="panel_volume"></button>
+                        <input class="range-volume_range" type="range" name="volume" id="volume" value="100" min="0" max="100" step="1">
+                        <button class="full_screen"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>    
+    <script src="script.js">
+    </script>
+    
+</body>
+</html>
