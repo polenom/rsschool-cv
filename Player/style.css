@@ -19,7 +19,7 @@ body {
 main {
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-image: url('fish.jpg');
 }
 .back {
 
@@ -55,7 +55,7 @@ main {
 .video_fraim {
     box-shadow: 0 0 0 20px rgb(0 0 0 / 50%);
     position: relative;
-    background-color: yellow;
+    background-color: transparent;
     overflow: hidden;
     max-width: 1440px;
     min-width: 1440px;
@@ -147,4 +147,8 @@ main {
 }
 .panel_button_play_change {
     background-image: url('svg/icon-pause.svg');
+}
+
+.panel_volume_mute {
+    background-image: url('svg/icon-mute.svg')
 }
